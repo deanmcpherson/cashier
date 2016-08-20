@@ -20,6 +20,7 @@ class InvoiceItem
      */
     protected $item;
 
+    protected $connection = "mysql";
     /**
      * Create a new invoice item instance.
      *

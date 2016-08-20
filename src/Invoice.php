@@ -16,7 +16,7 @@ class Invoice
      * @var \Illuminate\Database\Eloquent\Model
      */
     protected $user;
-
+    protected $connection = "mysql";
     /**
      * The Stripe invoice instance.
      *
